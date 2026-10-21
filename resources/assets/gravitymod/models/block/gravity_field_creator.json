@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "gravitymod:block/gravity_field_creator_top",
+    "side": "gravitymod:block/gravity_field_creator_side"
+  }
+}

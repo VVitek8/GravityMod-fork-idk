@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "portalmod:storage_cube", "required": false },
+    { "id": "portalmod:companion_cube", "required": false },
+    { "id": "portalmod:vintage_cube", "required": false },
+    { "id": "portalmod:gabe", "required": false }
+  ]
+}

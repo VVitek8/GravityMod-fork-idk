@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gravitymod:block/gravity_field_creator"
+    }
+  }
+}

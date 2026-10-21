@@ -1,0 +1,36 @@
+{
+    "required": false,
+    "package": "uk.co.mysterymayhem.gravitymod.mixin.compat",
+    "compatibilityLevel": "JAVA_8",
+    "refmap": "gravitymod.refmap.json",
+    "mixins": [
+        "PortalModCubeMixin",
+        "PortalModFaithPlateTileEntityMixin",
+        "PortalModLivingEntityInjectorMixin",
+        "PortalModPortalEntityAccessorMixin",
+        "PortalModPortalEntityMixin",
+        "PortalModPortalGeometryMixin",
+        "PortalModPortalGunMixin",
+        "PortalModPropulsionGelBlockMixin",
+        "PortalModRepulsionGelBlockMixin",
+        "PortalModTurretEntityMixin"
+    ],
+    "client": [
+        "PortalModCameraAnimatorMixin",
+        "PortalModCameraRotatorMixin",
+        "PortalModDuplicateEntityRendererMixin",
+        "PortalModGrabReachMixin",
+        "PortalModPortalEntityClientMixin",
+        "PortalModPortalGunSparkParticleMixin",
+        "PortalModPortalRendererMixin",
+        "PortalModRenderUtilMixin",
+        "PortalModTestElementEntityMixin",
+        "PortalModTestElementRendererMixin",
+        "PortalModTurretModelMixin",
+        "PortalModTurretRendererMixin"
+    ],
+    "minVersion": "0.8",
+    "injectors": {
+        "defaultRequire": 0
+    }
+}
